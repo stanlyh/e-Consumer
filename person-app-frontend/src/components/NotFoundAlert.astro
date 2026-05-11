@@ -1,0 +1,18 @@
+---
+interface Props {
+  documentNumber?: string;
+}
+const { documentNumber } = Astro.props;
+---
+<div class="glass rounded-2xl px-8 py-6 w-full max-w-md mx-auto border border-[#cf5b56]/25">
+  <div class="flex items-start gap-3">
+    <span class="text-[#cf5b56] text-xl leading-none mt-0.5">✕</span>
+    <div>
+      <p class="font-semibold text-[#cf5b56] mb-1 text-sm">Sin resultados</p>
+      <p class="text-sm text-[#6a737d]">
+        No se encontraron datos para el DNI
+        {documentNumber && <strong class="text-[#a9b7c6]"> {documentNumber}</strong>}.
+      </p>
+    </div>
+  </div>
+</div>

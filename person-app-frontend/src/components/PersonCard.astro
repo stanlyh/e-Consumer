@@ -1,0 +1,104 @@
+---
+interface Props {
+  person: {
+    documentNumber: string;
+    firstName: string;
+    lastName: string;
+    birthDate?: string;
+    age?: number;
+    address?: string;
+    locality?: string;
+    phone?: string;
+    email?: string;
+    lastQueriedAt: string;
+    fromCache: boolean;
+  };
+}
+const { person } = Astro.props;
+
+const formatDate = (iso?: string) => {
+  if (!iso) return '—';
+  return new Date(iso).toLocaleDateString('es-AR', {
+    day: '2-digit', month: '2-digit', year: 'numeric',
+  });
+};
+---
+<div class="glass rounded-2xl overflow-hidden w-full max-w-md mx-auto">
+  <!-- Header -->
+  <div class="px-8 pt-7 pb-5 border-b border-[#6897bb]/15">
+    <div class="flex items-start justify-between gap-3">
+      <div>
+        <p class="text-xs font-semibold text-[#6897bb] uppercase tracking-widest mb-1">
+          DNI {person.documentNumber}
+        </p>
+        <h2 class="text-xl font-bold text-[#a9b7c6] leading-tight">
+          {person.firstName} {person.lastName}
+        </h2>
+      </div>
+      <div class="shrink-0 mt-1">
+        {person.fromCache ? (
+          <span class="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full bg-[#6a8759]/20 text-[#6a8759] border border-[#6a8759]/30">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#6a8759] inline-block"></span>
+            Desde caché
+          </span>
+        ) : (
+          <span class="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full bg-[#cc7832]/20 text-[#cc7832] border border-[#cc7832]/30">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#cc7832] inline-block"></span>
+            Nueva consulta
+          </span>
+        )}
+      </div>
+    </div>
+  </div>
+
+  <!-- Data rows -->
+  <div class="px-8 py-5 flex flex-col gap-3">
+    <div class="grid grid-cols-2 gap-x-4 gap-y-3">
+      <div>
+        <p class="text-[10px] font-semibold text-[#6897bb] uppercase tracking-widest mb-0.5">
+          Fecha de nac.
+        </p>
+        <p class="text-sm text-[#a9b7c6]">{formatDate(person.birthDate)}</p>
+      </div>
+      <div>
+        <p class="text-[10px] font-semibold text-[#6897bb] uppercase tracking-widest mb-0.5">
+          Edad
+        </p>
+        <p class="text-sm text-[#a9b7c6]">
+          {person.age != null ? `${person.age} años` : '—'}
+        </p>
+      </div>
+      <div class="col-span-2">
+        <p class="text-[10px] font-semibold text-[#6897bb] uppercase tracking-widest mb-0.5">
+          Dirección
+        </p>
+        <p class="text-sm text-[#a9b7c6]">{person.address || '—'}</p>
+      </div>
+      <div class="col-span-2">
+        <p class="text-[10px] font-semibold text-[#6897bb] uppercase tracking-widest mb-0.5">
+          Localidad
+        </p>
+        <p class="text-sm text-[#a9b7c6]">{person.locality || '—'}</p>
+      </div>
+      <div>
+        <p class="text-[10px] font-semibold text-[#6897bb] uppercase tracking-widest mb-0.5">
+          Teléfono
+        </p>
+        <p class="text-sm text-[#a9b7c6]">{person.phone || '—'}</p>
+      </div>
+      <div>
+        <p class="text-[10px] font-semibold text-[#6897bb] uppercase tracking-widest mb-0.5">
+          Email
+        </p>
+        <p class="text-sm text-[#a9b7c6] break-all">{person.email || '—'}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="px-8 py-3 border-t border-[#6897bb]/10 bg-[#1e1e1e]/30">
+    <p class="text-[11px] text-[#6a737d]">
+      Última consulta: <span class="text-[#808080]">{formatDate(person.lastQueriedAt)}</span>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\bin\Debug\net10.0\PersonDataApp.Infrastructure.deps.json
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\bin\Debug\net10.0\PersonDataApp.Infrastructure.dll
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\bin\Debug\net10.0\PersonDataApp.Infrastructure.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\bin\Debug\net10.0\PersonDataApp.Application.dll
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\bin\Debug\net10.0\PersonDataApp.Domain.dll
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\bin\Debug\net10.0\PersonDataApp.Domain.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\bin\Debug\net10.0\PersonDataApp.Application.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDataApp.Infrastructure.csproj.AssemblyReference.cache
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDataApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDataApp.Infrastructure.AssemblyInfoInputs.cache
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDataApp.Infrastructure.AssemblyInfo.cs
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDataApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDa.F3D96366.Up2Date
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDataApp.Infrastructure.dll
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\refint\PersonDataApp.Infrastructure.dll
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\PersonDataApp.Infrastructure.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Infrastructure\obj\Debug\net10.0\ref\PersonDataApp.Infrastructure.dll

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PersonDataApp.Application/1.0.0": {
+        "dependencies": {
+          "PersonDataApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PersonDataApp.Application.dll": {}
+        }
+      },
+      "PersonDataApp.Domain/1.0.0": {
+        "runtime": {
+          "PersonDataApp.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PersonDataApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonDataApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

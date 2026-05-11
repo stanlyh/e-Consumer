@@ -1,0 +1,15 @@
+D:\repos\e-Consumer\src\PersonDataApp.Application\bin\Release\net10.0\PersonDataApp.Application.deps.json
+D:\repos\e-Consumer\src\PersonDataApp.Application\bin\Release\net10.0\PersonDataApp.Application.dll
+D:\repos\e-Consumer\src\PersonDataApp.Application\bin\Release\net10.0\PersonDataApp.Application.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Application\bin\Release\net10.0\PersonDataApp.Domain.dll
+D:\repos\e-Consumer\src\PersonDataApp.Application\bin\Release\net10.0\PersonDataApp.Domain.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDataApp.Application.csproj.AssemblyReference.cache
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDataApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDataApp.Application.AssemblyInfoInputs.cache
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDataApp.Application.AssemblyInfo.cs
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDataApp.Application.csproj.CoreCompileInputs.cache
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDa.ADBA7A28.Up2Date
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDataApp.Application.dll
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\refint\PersonDataApp.Application.dll
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\PersonDataApp.Application.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Application\obj\Release\net10.0\ref\PersonDataApp.Application.dll

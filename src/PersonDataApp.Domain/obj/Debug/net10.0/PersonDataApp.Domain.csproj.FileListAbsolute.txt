@@ -1,0 +1,11 @@
+D:\repos\e-Consumer\src\PersonDataApp.Domain\bin\Debug\net10.0\PersonDataApp.Domain.deps.json
+D:\repos\e-Consumer\src\PersonDataApp.Domain\bin\Debug\net10.0\PersonDataApp.Domain.dll
+D:\repos\e-Consumer\src\PersonDataApp.Domain\bin\Debug\net10.0\PersonDataApp.Domain.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\PersonDataApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\PersonDataApp.Domain.AssemblyInfoInputs.cache
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\PersonDataApp.Domain.AssemblyInfo.cs
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\PersonDataApp.Domain.csproj.CoreCompileInputs.cache
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\PersonDataApp.Domain.dll
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\refint\PersonDataApp.Domain.dll
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\PersonDataApp.Domain.pdb
+D:\repos\e-Consumer\src\PersonDataApp.Domain\obj\Debug\net10.0\ref\PersonDataApp.Domain.dll
