@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonDataApp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e772dff3e2df0869febd2bd15abce30882c3c68d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d03a1239027ffa265a0122cbc5e0ec159fe41cb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonDataApp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonDataApp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
