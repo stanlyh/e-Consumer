@@ -44,12 +44,12 @@
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(104, 151, 187, 0.25);
     transition: border-color 0.2s, box-shadow 0.2s;
-  }
 
-  .glass-input:focus {
-    outline: none;
-    border-color: var(--color-darcula-cyan);
-    box-shadow: 0 0 0 2px rgba(104, 151, 187, 0.2);
+    &:focus {
+      outline: none;
+      border-color: var(--color-darcula-cyan);
+      box-shadow: 0 0 0 2px rgba(104, 151, 187, 0.2);
+    }
   }
 
   .blob {
