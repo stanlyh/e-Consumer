@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonDataApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d03a1239027ffa265a0122cbc5e0ec159fe41cb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+187be9ca305ac8d4fd99e4f3de55a4860463d66c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonDataApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonDataApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
